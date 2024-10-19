@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -75,12 +74,12 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           These projects demonstrate my expertise in video editing, web design, logo design, SEO, content creation, and script writing through practical examples of my work. They showcase my ability to tackle complex challenges, leverage various techniques, and manage projects efficiently.
-        </motion.p>
+        </p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
